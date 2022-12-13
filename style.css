@@ -3,6 +3,22 @@
     margin-top:23px
 }
 
+.display {
+    background-color: rgb(182, 182, 182);
+    height: 70px;
+    width: 90%;
+    text-align: right;
+    padding: 20px;
+    font-size: 30px;
+    position: relative;
+  }
+  .upperdisplay {
+    opacity: 0.4;
+    font-size: 20px;
+    height: 20px;
+    overflow: hidden;
+  }
+
 h1{
     font-size: 28px;
 }
@@ -25,6 +41,7 @@ input{
     font-weight: bold;
     border: none;
     border-radius: 15px;
+    cursor: pointer;
 }
 
 .calculator{ 
